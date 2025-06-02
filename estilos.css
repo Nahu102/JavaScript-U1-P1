@@ -1,0 +1,38 @@
+body {
+    background-color: #7D8CA3;
+    /* centra el texto horizontalmente */
+    text-align: center;
+    /* aplica la fuente Josefin Sans */
+    font-family: 'Josefin Sans', sans-serif;
+    /* color de texto */
+    color: #2E3A2F;
+    /* elimina el margen predeterminado del body */
+    margin: 0;
+    /* espacio interno alrededor del contenido del body */
+    padding: 20px;
+}
+
+.resultado {
+    /* desplega un flexbox */
+    display: flex;
+    /* organiza los elementos en columna */
+    flex-direction: column;
+    /* centra los elementos horizontalmente dentro del flexbox */
+    align-items: center;
+    /* centra los elementos verticalmente dentro del flexbox */
+    justify-content: center;
+    /* color de fondo */
+    background-color: #A3B39C;
+    /* espacio interno alrededor del contenido de .resultado */
+    padding: 20px;
+    /* bordes redondeados para suavizar el contenedor */
+    border-radius: 8px;
+    /* ancho máximo para que no se extienda demasiado en pantallas grandes */
+    max-width: 600px;
+    /* centra el contenedor horizontalmente en la página */
+    margin: 0 auto;
+    /* sombra sutil para dar profundidad */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /* espacio entre los elementos hijos dentro del flex */
+    gap: 15px;
+}
